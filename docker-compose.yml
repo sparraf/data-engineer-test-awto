@@ -1,9 +1,9 @@
 services:
   postgres:
-    image: 'postgres:latest'
+    image: 'postgis/postgis:15-3.4'
     restart: always
     volumes:
-      - './postgres_data:/var/lib/postgresql/data'
+      - './entrypoint-scripts:/docker-entrypoint-initdb.d'
     environment:
       - POSTGRES_PASSWORD=4WT0_TEST#!!
     ports:
