@@ -3,7 +3,7 @@
 ### 1. Diseñar un modelo de datos. Genere una propuesta sobre cómo guardar los datos. Justifique esa propuesta y explique por qué es la mejor opción.
 
 **Respuesta:** Se propone un modelo de datos tipo estrella, representado por el siguiente diagrama:
-<iframe width="700" height="350" src='https://dbdiagram.io/embed/64ee944402bd1c4a5ea4b75a'> </iframe>
+![Modelo de datos](./dbdiagram.png)
 En este modelo se destacan los siguientes aspectos:
 
 
